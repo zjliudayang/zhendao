@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.szgc.vibrate.table.dao.SurfaceInfoMapper">
+  <resultMap id="BaseResultMap" type="com.szgc.vibrate.table.model.SurfaceInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SURFACE_ID" jdbcType="INTEGER" property="surfaceId" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PARENT_ID" jdbcType="INTEGER" property="parentId" />
+    <result column="COORD" jdbcType="VARCHAR" property="coord" />
+    <result column="BASE_COORD" jdbcType="VARCHAR" property="baseCoord" />
+    <result column="HEIGHT" jdbcType="REAL" property="height" />
+    <result column="START_TIME" jdbcType="TIMESTAMP" property="startTime" />
+    <result column="CLOSE_TIME" jdbcType="TIMESTAMP" property="closeTime" />
+    <result column="DELETE_STATUS" jdbcType="INTEGER" property="deleteStatus" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="SURFACE_ID_PATH" jdbcType="LONGVARCHAR" property="surfaceIdPath" />
+    <result column="SURFACE_NAME_PATH" jdbcType="LONGVARCHAR" property="surfaceNamePath" />
+  </resultMap>
+</mapper>
